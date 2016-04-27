@@ -31,5 +31,10 @@
         "match_all": true
       }
     ]
+  },
+  {
+    "keys": ["super+enter"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/Stylus/Add Line.sublime-macro"}
   }
 ]
